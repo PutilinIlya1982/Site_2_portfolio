@@ -12,15 +12,12 @@ body {
 }
 
 .container {
-    min-width: 1370px;
+    max-width: 1370px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
 /* Header */
-.container__header-text {
-    margin-left: 260px;
-}
 
 .header {
     padding-top: 175px;
@@ -63,4 +60,33 @@ body {
     cursor: pointer;
 }
 /* Footer */
+.footer {
+    background-color: #01996D;
+    padding: 95px 0;
+}
+.footer ul li a {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 60px;
+    text-decoration: none;
+}
+.footer ul li a:hover {
+    opacity:0.8;
+}
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 60px;
+}
+.footer .logo {
+    margin-bottom: 60px;
+}
+.footer ul li:last-child {
+    margin-bottom: 0;
+}
+
+
 
